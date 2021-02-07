@@ -1,0 +1,1 @@
+g++ -o a.exe object_failed.cpp -lmingw32 -lSDL2main -lSDL2

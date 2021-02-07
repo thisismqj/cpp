@@ -1,0 +1,38 @@
+SDL_Window* 
+SDL_Surface*
+SDL_Init(SDL_INIT_...|SDL_INIT_)
+SDL_GetError()
+SDL_CreateWindow(title, x, y, w, h, flag)
+xy:SDL_WINDOWPOS_UNDEFINED
+flag:SDL_WINDOW_SHOWN
+SDL_GetWindowSurface(window)
+SDL_FillRect(surface, SDL_Rect,color)
+SDL_Rect.x.y.w.h
+SDL_UpdateWindowSurface(window)
+SDL_Delay(ms)
+SDL_DestroyWindow(window)
+SDL_Quit()
+SDL_MapRGB(format,r,g,b)
+format:SDL_PixelFormat
+surface->format
+SDL_LoadBMP(filename)
+SDL_FreeSurface(surface)
+SDL_BlitSurface(source, SDL_Rect, to, SDL_Rect)
+SDL_Event
+SDL_PollEvent(&e)
+e:type
+SDL_ConvertSurface(surface,format)
+SDL_BlitScaled(source,SDL_Rect,to,SDL_Rect)
+IMG_Init(imgFlags)
+imgFlags:IMG_INIT_PNG
+!( IMG_Init( imgFlags ) & imgFlags )
+IMG_GetError()
+IMG_Load()
+SDL_CreateRenderer(window,-1,flag)
+SDL_SetRenderDrawColor(renderer,r,g,b,a)
+SDL_CreateTextureFromSurface(renderer,surface)
+SDL_RenderClear(renderer)
+SDL_RenderCopy(renderer,texture,rect,rect)
+SDL_RenderPresent(renderer)
+SDL_SetColorKey(sur,SDL_TRUE,SDL_MapRGB(sur->format,r,g,b))
+SDL_SetTextureColorMod(texture, r, g, b );

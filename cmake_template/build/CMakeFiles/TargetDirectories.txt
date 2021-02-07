@@ -1,0 +1,3 @@
+C:/Users/MQJ/Documents/cpp/cmake_template/build/CMakeFiles/Out.dir
+C:/Users/MQJ/Documents/cpp/cmake_template/build/CMakeFiles/edit_cache.dir
+C:/Users/MQJ/Documents/cpp/cmake_template/build/CMakeFiles/rebuild_cache.dir
